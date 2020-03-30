@@ -56,7 +56,7 @@ class Ui_fbooking(object):
 #SEND BOOKING MAIL
             d = smtplib.SMTP('smtp.gmail.com', 587)
             d.starttls()
-            d.login("carparking@gmail.com", "123456789")
+            d.login("carparking@gmail.com", "password")
             message1 = f"ThankYou '{self.username}'\nYour Bookind-id is: '{self.Bookingid}'\nSlot-Number is: '{self.Slotno}'\nOn Date : '{self.datee}'"
             d.sendmail("carparking@gmail.com", self.vv, message1)
             d.quit()
