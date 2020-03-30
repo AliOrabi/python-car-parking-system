@@ -10,7 +10,7 @@ IN OUR PROJECT USER CAN BOOK THE PARKING SLOTS FOR PERTICULAR DATES AND IF THAT 
 #STEPS
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-	1.Python version 3.7.x is used for this project
+    1.Python version 3.7.x is used for this project
     2.Install all the packages (PyQt5,pymysql,smtplib)
     3.Install mysql and then set up its server and make necessary changes in py file for database
     4.Open 'cmd' in the folder and type ----python welcome.py
@@ -20,26 +20,26 @@ IN OUR PROJECT USER CAN BOOK THE PARKING SLOTS FOR PERTICULAR DATES AND IF THAT 
 #Database
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-Step 1. Create schema by name customer
-step 2. import customer.login and customer.bookingdetails files
-setp 3. Makes changes in F1login and F1Booking.
-		i.  host:"localhost"   --Dont change
-		ii. user:"You_db_name"
-		iii.password:"your_db_password"
-		iv. db:"customer" --Dont change
+	Step-1. Create schema by name customer
+	step-2. import customer.login and customer.bookingdetails files
+	setp-3. Makes changes in F1login and F1Booking.
+	i.  host:"localhost"   --Dont change
+	ii. user:"You_db_name"
+	iii.password:"your_db_password"
+	iv. db:"customer" --Dont change
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 #Libraries
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-1.pip install PyQt5
-2.pip install pymysql
-3.pip install smtplib
+	1. pip install PyQt5
+	2. pip install pymysql
+	3. pip install smtplib
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 #File Sequence
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-1. Welcome.py
-2. F1login.py
-3. F1booking.py
+	1. Welcome.py
+	2. F1login.py
+	3. F1booking.py
