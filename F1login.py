@@ -128,7 +128,7 @@ class Ui_Flogin(object):
         self.stackedWidget.setCurrentIndex(1)
         s= smtplib.SMTP('smtp.gmail.com',587)
         s.starttls()
-        s.login("carparkingsiesgst@gmail.com","siesgst123")
+        s.login("carparking@gmail.com","password")
         message= f"ThankYou '{self.username1}' for registering in our car parking system.\nYour password is '{self.password1}'"
         s.sendmail("carparkingsiesgst@gmail.com",self.mail,message)
         s.quit()
