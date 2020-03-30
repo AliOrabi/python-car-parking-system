@@ -10,11 +10,28 @@ IN OUR PROJECT USER CAN BOOK THE PARKING SLOTS FOR PERTICULAR DATES AND IF THAT 
 #STEPS
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-
-    1.Install all the packages
-    2.Install mysql and then set up its server and make necessary changes in py file for database
-    3.Open 'cmd' in the folder and type ----python welcome.py
+	1.Python version 3.7.x is used for this project
+    2.Install all the packages (PyQt5,pymysql,smtplib)
+    3.Install mysql and then set up its server and make necessary changes in py file for database
+    4.Open 'cmd' in the folder and type ----python welcome.py
     4.You are ready to go.
-
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
+#Database
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Step 1: Create schema by name customer
+step 2: import customer.login and customer.bookingdetails files
+setp 3: Makes changes in F1login and F1Booking:
+		host:"localhost"   --Dont change
+		user:"You_db_name"
+		password:"your_db_password"
+		db:"customer" --Dont change
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+#Libraries
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+pip install PyQt5
+pip install pymysql
+pip install smtplib
