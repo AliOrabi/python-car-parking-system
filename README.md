@@ -20,13 +20,13 @@ IN OUR PROJECT USER CAN BOOK THE PARKING SLOTS FOR PERTICULAR DATES AND IF THAT 
 #Database
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
-Step 1: Create schema by name customer
-step 2: import customer.login and customer.bookingdetails files
-setp 3: Makes changes in F1login and F1Booking:
-		host:"localhost"   --Dont change
-		user:"You_db_name"
-		password:"your_db_password"
-		db:"customer" --Dont change
+Step 1. Create schema by name customer
+step 2. import customer.login and customer.bookingdetails files
+setp 3. Makes changes in F1login and F1Booking.
+		i.  host:"localhost"   --Dont change
+		ii. user:"You_db_name"
+		iii.password:"your_db_password"
+		iv. db:"customer" --Dont change
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 #Libraries
