@@ -1,6 +1,6 @@
-from gtts import gTTS
+# from gtts import gTTS
 import os
-from playsound import playsound
+# from playsound import playsound
 import smtplib
 from PyQt5.QtWidgets import QInputDialog, QLineEdit, QDialog
 from PyQt5 import QtCore, QtGui, QtWidgets
@@ -28,7 +28,7 @@ class Ui_Flogin(object):
         mess.setText(message)
         mess.setStandardButtons(QtWidgets.QMessageBox.Ok)
         mess.exec_()
-        playsound('C:/Users/ritvij/Desktop/hello2.mp3')
+        # playsound('C:/Users/ritvij/Desktop/hello2.mp3')
         self.Dtable()
     def Dtable(self):
         conn = pymysql.connect(host="localhost", user="root", password="123456", db="customer")
@@ -105,13 +105,13 @@ class Ui_Flogin(object):
 
 
     def openwindow(self,):
-        r1=random.randint(1,100000000)
+        # r1=random.randint(1,100000000)
 
-        file1 = str("hello" + str(r1) + ".mp3")
-        speech = gTTS(f"Welcome, {self.username}", 'en')
-        speech.save(file1)
-        playsound(file1)
-        os.remove(file1)
+        # file1 = str("hello" + str(r1) + ".mp3")
+        # speech = gTTS(f"Welcome, {self.username}", 'en')
+        # speech.save(file1)
+        # playsound(file1)
+        # os.remove(file1)
 
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_fbooking(self.emailid,self.username)
@@ -132,7 +132,7 @@ class Ui_Flogin(object):
         message= f"ThankYou '{self.username1}' for registering in our car parking system.\nYour password is '{self.password1}'"
         s.sendmail("carparkingsiesgst@gmail.com",self.mail,message)
         s.quit()
-        playsound('C:/Users/ritvij/Desktop/hello1.mp3')
+        # playsound('C:/Users/ritvij/Desktop/hello1.mp3')
 
 
 

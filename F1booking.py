@@ -1,4 +1,4 @@
-from playsound import playsound
+# from playsound import playsound
 import smtplib
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap
@@ -294,7 +294,7 @@ class Ui_fbooking(object):
         mess.setText(message)
         mess.setStandardButtons(QtWidgets.QMessageBox.Ok)
         mess.exec_()
-        playsound('C:/Users/ritvij/Desktop/hello5.mp3')
+        # playsound('C:/Users/ritvij/Desktop/hello5.mp3')
 #SHOWING WARNING MESSAGE
     def warning(self, title, message):
         mess = QtWidgets.QMessageBox()
